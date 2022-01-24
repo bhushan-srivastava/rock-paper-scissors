@@ -10,6 +10,9 @@ color: #373024;
 body{
     text-align: center;
 }
+a {
+  color: inherit;
+}
 main {
   display: flex;
   justify-content: center;

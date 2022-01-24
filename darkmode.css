@@ -11,6 +11,9 @@ color: white;
 body{
     text-align: center;
 }
+a {
+  color: inherit;
+}
 main {
   display: flex;
   justify-content: center;
