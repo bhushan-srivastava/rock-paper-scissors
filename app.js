@@ -42,10 +42,10 @@ function userInputFunction() {
             else {
                 result = "scissors";
             }
-            if (result == userInput[j].id) {
+            if (result == userInput[j].id && result != computerInput) {
                 userScore++;
             }
-            else if (result == computerInput) {
+            else if (result == computerInput && result != userInput[j].id) {
                 computerScore++;
             }
             document.getElementById('score').innerHTML = 'Score: <br> User: ' + userScore + ' Computer: ' + computerScore;
