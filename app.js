@@ -3,6 +3,14 @@ if (setTheme == null) {
     document.getElementById("myStyleSheet").href = 'lightmode.css';
     window.localStorage.setItem('theme', 'lightmode.css');
 }
+else if (setTheme == 'lightmode.css') {
+    document.getElementById("myStyleSheet").href = 'lightmode.css';
+    window.localStorage.setItem('theme', 'lightmode.css');
+}
+else if (setTheme == 'darkmode.css') {
+    document.getElementById("myStyleSheet").href = 'darkmode.css';
+    window.localStorage.setItem('theme', 'darkmode.css');
+}
 function change() {
     var setTheme = window.localStorage.getItem('theme');
     if (setTheme == 'darkmode.css') {
